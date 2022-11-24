@@ -83,5 +83,91 @@ header section .item.active {
 header section .item img {
   width: 100%;
   height: 330px;
+}
 
+main section .img-star {
+  width: 240px;
+  position: relative;
+}
+main section .stars {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+}
+main section .text-sugguest {
+  width: 75px;
+  height: 30px;
+  color: white;
+  font-size: small;
+  background-color: orangered;
+  position: absolute;
+  border-radius: 7px;
+  top: 10px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .img-headphone {
+  width: 150px;
+  height: 150px;
+  margin: 10px 50px;
+}
+
+.gold {
+  color: rgb(255, 208, 0);
+}
+
+section.home-page-product-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.row {
+  width: 95%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.home-page-product-section div.content-headphone-card {
+  box-shadow: 2px 2px 4px gray;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main section .tittle {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-card-left-side{
+  width:80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(6, 175, 6);
+  color: white;
+  border-radius: 20px;
+}
+.b-icon {
+  color: white;
 }
