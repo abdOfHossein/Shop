@@ -149,15 +149,13 @@ header section .item img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 .footer-card-right-side {
   width: 200px;
   display: flex;
   flex-direction: row;
-  justify-content:center
-
+  justify-content: center;
 }
 
 .icon {
@@ -168,6 +166,7 @@ header section .item img {
   border-radius: 20px;
   cursor: pointer;
   transition: 0.75s;
+  padding-top: 10px;
 }
 .icon:hover {
   width: 100px;
@@ -175,3 +174,48 @@ header section .item img {
 .b-icon {
   color: white;
 }
+
+/* super-offer-section */
+.super-offer{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.content-right-side {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px gray;
+  margin:0 15px;
+}
+
+.info-offer {
+  position: relative;
+
+}
+
+.header-info-offer {
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(255, 72, 0);
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-img-offer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.img-offer{
+  width: 400px;
+  height: 400px;
+}
+
