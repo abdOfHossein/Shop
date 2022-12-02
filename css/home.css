@@ -176,22 +176,24 @@ header section .item img {
 }
 
 /* super-offer-section */
-.super-offer{
+.super-offer {
   margin-top: 20px;
   width: 100%;
+  height: 500px;
+  padding: 8px;
 }
 
 .content-right-side {
+  height: 100%;
   display: flex;
   flex-direction: row;
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 10px gray;
-  margin:0 15px;
+
 }
 
 .info-offer {
   position: relative;
-
 }
 
 .header-info-offer {
@@ -202,20 +204,29 @@ header section .item img {
   border-radius: 0 0 20px 20px;
   position: absolute;
   top: 0;
-  right: 100px;
+  right: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content-img-offer{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+.content-img-offer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.img-offer{
-  width: 400px;
-  height: 400px;
+.img-offer {
+  width: 100%;
+  height:100%;
 }
 
+.content-left-side {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.img-left-side{
+  width: 100%;
+  height: 100%;
+}
